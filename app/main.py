@@ -18,7 +18,7 @@ current_stock_index = 0
 
 async def change_presence():
     while True:
-        print(f"Running loop")
+        #print(f"Running loop")
         global current_stock_index
         global listofstonks
         current_stock_symbol = listofstonks[current_stock_index]
